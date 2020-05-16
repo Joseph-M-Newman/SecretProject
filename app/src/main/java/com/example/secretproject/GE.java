@@ -2,9 +2,9 @@ package com.example.secretproject;
 
 import com.example.secretproject.DB.AppDatabase;
 
-import androidx.room.ColumnInfo;
-import androidx.room.Entity;
-import androidx.room.PrimaryKey;
+        import androidx.room.ColumnInfo;
+        import androidx.room.Entity;
+        import androidx.room.PrimaryKey;
 
 @Entity(tableName = AppDatabase.GE_TABLE)
 public class GE {

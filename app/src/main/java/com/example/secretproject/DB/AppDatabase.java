@@ -1,9 +1,10 @@
 package com.example.secretproject.DB;
 
 import androidx.room.Database;
+import androidx.room.RoomDatabase;
 
 @Database(entities =  {}, version = 1)
-public abstract class AppDatabase {
+public abstract class AppDatabase extends RoomDatabase {
     public abstract AccountDao accountDao();
     public abstract ItemDao itemDao();
     public abstract GEDao geDao();
